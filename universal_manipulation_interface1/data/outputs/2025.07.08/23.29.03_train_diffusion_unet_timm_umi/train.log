@@ -1,0 +1,2 @@
+[2025-07-08 23:29:04,660][hydra.utils][ERROR] - Error initializing class at diffusion_policy.workspace.train_diffusion_unet_image_workspace.TrainDiffusionUnetImageWorkspace: Error loading 'diffusion_policy.workspace.train_diffusion_unet_image_workspace.TrainDiffusionUnetImageWorkspace':
+ImportError("cannot import name 'cached_download' from 'huggingface_hub' (/opt/conda/envs/umi/lib/python3.9/site-packages/huggingface_hub/__init__.py)")

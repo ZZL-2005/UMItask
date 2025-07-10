@@ -1,0 +1,4 @@
+- task.dataset_path=/workspace/data/cup_in_the_wild.zarr.zip.1
+- dataloader.num_workers=4
+- training.max_train_steps=100
+- logging.mode=disabled

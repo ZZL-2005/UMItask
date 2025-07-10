@@ -1,0 +1,5 @@
+[2025-07-09 00:39:14,088][timm.models._builder][INFO] - Loading pretrained weights from Hugging Face hub (timm/vit_base_patch16_clip_224.openai)
+[2025-07-09 00:39:15,479][diffusion_policy.model.vision.timm_obs_encoder][WARNING] - vit will use the CLS token. feature_aggregation (attention_pool_2d) is ignored!
+[2025-07-09 00:39:15,480][diffusion_policy.model.vision.timm_obs_encoder][INFO] - number of parameters: 8.579942e+07
+[2025-07-09 00:39:16,277][diffusion_policy.model.diffusion.conditional_unet1d][INFO] - number of parameters: 8.547419e+07
+[2025-07-09 00:39:16,458][accelerate.utils.other][WARNING] - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.

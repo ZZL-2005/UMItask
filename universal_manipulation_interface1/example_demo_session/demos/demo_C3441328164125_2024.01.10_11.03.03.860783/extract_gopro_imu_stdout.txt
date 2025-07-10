@@ -1,0 +1,9 @@
+Input video path: /data/raw_video.mp4
+Output file will be: /data/imu_data.json
+Opening /data/raw_video.mp4
+Read stream data from raw_video.mp4
+Extracted information for raw_video.mp4
+Flushing on end after 46809262 bytes
+Generated telemetry for raw_video.mp4
+Telemetry saved as JSON to imu_data.json
+Done

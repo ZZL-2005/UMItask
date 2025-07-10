@@ -1,0 +1,98 @@
+{
+    "os": "Linux-5.4.0-48-generic-x86_64-with-glibc2.36",
+    "python": "3.9.18",
+    "heartbeatAt": "2025-07-09T14:04:06.891572",
+    "startedAt": "2025-07-09T14:04:06.813339",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--config-name=train_diffusion_unet_timm_umi_workspace",
+        "task.dataset_path=example_demo_session/dataset.zarr.zip"
+    ],
+    "state": "running",
+    "program": "/workspace/train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/real-stanford/universal_manipulation_interface.git",
+        "commit": null
+    },
+    "email": null,
+    "root": "/workspace",
+    "host": "69be2904d205",
+    "username": "root",
+    "executable": "/opt/conda/envs/umi/bin/python",
+    "cpu_count": 5,
+    "cpu_count_logical": 10,
+    "cpu_freq": {
+        "current": 3000.0,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3000.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3000.0,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 98.30362319946289,
+        "used": 57.416236877441406
+    },
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla T4",
+            "memory_total": 16106127360
+        }
+    ],
+    "memory": {
+        "total": 31.176189422607422
+    }
+}

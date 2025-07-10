@@ -1,0 +1,5 @@
+{"train_loss": 1.0988842248916626, "global_step": 0, "epoch": 0, "lr": 1.5e-07}
+{"train_loss": 1.0911190509796143, "global_step": 1, "epoch": 0, "lr": 3e-07}
+{"train_loss": 1.1196813583374023, "global_step": 2, "epoch": 0, "lr": 4.5e-07}
+{"train_loss": 1.1141388416290283, "global_step": 3, "epoch": 0, "lr": 6e-07}
+{"train_loss": 1.142451524734497, "global_step": 4, "epoch": 0, "lr": 7.499999999999999e-07}

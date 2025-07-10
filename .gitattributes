@@ -1,0 +1,2 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+example_demo_session/* filter=lfs diff=lfs merge=lfs -text

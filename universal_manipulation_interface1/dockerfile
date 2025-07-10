@@ -1,0 +1,33 @@
+# 使用 Miniconda 基础镜像
+FROM continuumio/miniconda3
+
+# 工作目录
+WORKDIR /workspace
+
+# 系统依赖
+RUN apt-get update && \
+    apt-get install -y wget git libgl1-mesa-glx libglib2.0-0 cmake build-essential linux-headers-amd64 && \
+    rm -rf /var/lib/apt/lists/*
+
+# 复制 Conda 环境配置文件到容器
+COPY conda_environment.yaml /workspace/
+
+# 创建并激活 conda 环境
+RUN conda env create -f conda_environment.yaml
+
+# # 安装 / 升级 huggingface_hub
+# RUN conda run -n umi pip install huggingface_hub==0.15.1
+
+# 设置启动容器时进入 conda umi 环境
+SHELL ["conda", "run", "-n", "umi", "/bin/bash", "-c"]
+
+# 给默认 shell 保留 interactive
+ENTRYPOINT ["/bin/bash"]
+
+#命令 顺序执行
+#docker run --gpus all --shm-size=32g -it -v $(pwd):/workspace v1
+
+#docker run -it -v $(pwd):/workspace v1
+#conda activate umi
+#python train.py --config-name=train_diffusion_unet_timm_umi_workspace task.dataset_path=example_demo_session/dataset.zarr.zip
+#

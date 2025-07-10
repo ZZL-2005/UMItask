@@ -1,0 +1,303 @@
+Mask img size mismatch! Converting [2704 x 2028] to [960 x 720]
+
+ORB-SLAM3 Copyright (C) 2017-2020 Carlos Campos, Richard Elvira, Juan J. Gómez, José M.M. Montiel and Juan D. Tardós, University of Zaragoza.
+ORB-SLAM2 Copyright (C) 2014-2016 Raúl Mur-Artal, José M.M. Montiel and Juan D. Tardós, University of Zaragoza.
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it
+under certain conditions. See LICENSE.txt.
+
+Input sensor was set to: Monocular-Inertial
+Loading settings from /ORB_SLAM3/Examples/Monocular-Inertial/gopro10_maxlens_fisheye_setting_v1_720.yaml
+	-Loaded camera 1
+	-Loaded image info
+	-Loaded IMU calibration
+	-Loaded ORB settings
+	-Loaded viewer settings
+	-Loaded Atlas settings
+	-Loaded misc parameters
+----------------------------------
+SLAM settings: 
+	-Camera 1 parameters (Kannala-Brandt): [ 282.907 282.907 480 360 -0.0174584 -0.0280825 0.0128327 -0.0045198 ]
+	-Original image size: [ 960 , 720 ]
+	-Current image size: [ 960 , 720 ]
+	-Sequence FPS: 60
+	-Gyro noise: 0.0015
+	-Accelerometer noise: 0.017
+	-Gyro walk: 5e-05
+	-Accelerometer walk: 0.0055
+	-IMU frequency: 200
+	-Features per image: 1250
+	-ORB scale factor: 1.2
+	-ORB number of scales: 8
+	-Initial FAST threshold: 20
+	-Min FAST threshold: 7
+
+
+Loading ORB Vocabulary. This could take a while...
+Vocabulary loaded!
+
+Initialization of Atlas from file: /map/map_atlas.osa
+Starting to read the save binary file
+End to load the save binary file
+Change to map with id: 0
+Atlas loaded!
+There are 1 cameras in the atlas
+Camera 0 is fisheye
+Discard points further than 20 m from current camera
+Video opened using backend FFMPEG
+There are 3311 frames in total
+video FPS 59.9401
+line 1873 keyframes 50MapPoints1578
+line 1877
+mlFrameTimes.size()= 0
+KeyFrame::nNextId=476
+Relocalized!!
+INIT_RELOCALIZE success!
+vpKFs.back()->mpImuPreintegrated0x55df68f1a340
+pKFCur->mTimeStamp0
+vpKFs.front()->mTimeStamp-54.421
+vpKFs.back()->mTimeStamp-0.016675
+pKFcur->GetMapPointMatches().size()4118
+1691 pKFcur->GetVelocity() 0
+0
+0
+pKFcur->mnId476
+Video FPS: 59.9401
+ORB-SLAM 3 running at: 12.2134 FPS
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 23.286256130281576 FPS
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 25.510879599311842 FPS
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 24.676437614708423 FPS
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 25.976325384854846 FPS
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 25.952989222476216 FPS
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 25.314014015356999 FPS
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 25.24915614795238 FPS
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 26.311097097236107 FPS
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 25.177051319139018 FPS
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 26.989052700443647 FPS
+No IMU Preintegration for KeyFrame 476, skipping inertial edge.
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 27.818314471078843 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 32.345415920323148 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 26.83826912809737 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 27.667615324638383 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 27.363013775471476 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 24.686093486680385 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 27.060391026438786 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 26.322062436774406 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 25.051792702528022 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 29.458806954847251 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 26.276388029833477 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 25.51512941286396 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 25.645941770786624 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 25.062407901916565 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 25.51498814190926 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 27.774446387236107 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 27.908061913477194 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 27.159495631870417 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 25.942232925295734 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 25.973603649977015 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 25.371714648384824 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 27.564495199133219 FPS
+Video FPS: 59.940059940059939
+ORB-SLAM 3 running at: 22.723230058070577 FPS
+Shutdown
+mpLocalMapper is not finished
+mpLoopCloser is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+mpLocalMapper is not finished
+
+Saving camera trajectory to /data/camera_trajectory.csv ...
+There are 1 maps in the atlas
+  Map 0 has 66 KFs
+
+CSV camera trajectory saved!
